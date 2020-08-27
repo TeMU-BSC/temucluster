@@ -20,4 +20,4 @@ The output is created as an XML file that can be loaded and visualized in the Ca
 
 ## Resultado sobre un directorio de casos clínicos de oncología:
 
-![Image of Clusterization](https://github.com/cayorodriguez/temucluster/blob/master/clusters-20200826164731.png)
+![Image of Clusterization](https://github.com/TeMU-BSC/temucluster/blob/master/clusters-20200826164731.png)
