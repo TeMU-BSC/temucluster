@@ -8,14 +8,14 @@ Created on Fri May 22 11:00:10 2020
 
 import cgi
 import os, sys
-os.chdir('/home/crodri/GIT/TEMUcluster')
+#os.chdir('/home/crodri/GIT/TEMUcluster')
 
 from lxml import etree as ET
 #from pymongo import MongoClient
 from optparse import OptionParser
 
-directorio = "/home/crodri/BSC/similitud_cc/corpus_casos_clinicos/radioccc"
-outfilename = "test_dir_cluster"
+#directorio = "/home/crodri/BSC/similitud_cc/corpus_casos_clinicos/radioccc"
+#outfilename = "test_dir_cluster"
 def createCarrotFile(directorio,outfilename):
     if directorio.endswith(os.sep):
         pass
