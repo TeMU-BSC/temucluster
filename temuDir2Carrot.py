@@ -6,7 +6,7 @@ Created on Fri May 22 11:00:10 2020
 @author: crodri
 """
 
-import cgi
+import html
 import os, sys
 #os.chdir('/home/crodri/GIT/TEMUcluster')
 
@@ -38,7 +38,7 @@ def createCarrotFile(directorio,outfilename):
         print(file)
         d = ET.Element('document')
         s = ET.SubElement(d, 'snippet')
-        s.text = cgi.escape(doc)
+        s.text = html.escape(doc)
         t = ET.SubElement(d, 'title')
         t.text = doc[:120]#str(doc['created_at_date'])
         u = ET.SubElement(d, 'url')
